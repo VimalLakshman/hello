@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "this is for practice purpose",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "vimal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.20.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
